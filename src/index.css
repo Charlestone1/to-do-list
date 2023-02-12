@@ -320,6 +320,17 @@ todoList List
   color: var(--clr-red-dark);
 }
 
+.completed_btn{
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: var(--transition);
+}
+.completed_btn:hover {
+  color: var(--clr-primary-4);
+}
 .completed {
-  color: rgb(96, 215, 231);
+  color: var(--clr-primary-4);
 }
